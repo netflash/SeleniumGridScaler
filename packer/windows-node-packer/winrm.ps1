@@ -27,7 +27,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 cinst -y googlechrome wget unzip autologon --allow-empty-checksums
 cinst -y jdk8 --version 8.0.102 --allow-empty-checksums
 cinst -y seleniumhub --version 2.43.1.2 --allow-empty-checksums
-cinst -y selenium-chrome-driver --version 2.23 --allow-empty-checksums
+cinst -y selenium-chrome-driver --version 2.25 --allow-empty-checksums
 
 autologon administrator localhost selenium123#
 
