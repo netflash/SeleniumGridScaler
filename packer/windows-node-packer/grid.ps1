@@ -3,7 +3,7 @@ netsh advfirewall firewall add rule name="SeleniumNode" protocol=TCP dir=in loca
 cinst -y googlechrome wget unzip autologon --allow-empty-checksums
 cinst -y jdk8 --version 8.0.102 --allow-empty-checksums
 cinst -y seleniumhub --version 2.43.1.2 --allow-empty-checksums
-cinst -y selenium-chrome-driver --version 2.23 --allow-empty-checksums
+cinst -y selenium-chrome-driver --version 2.25 --allow-empty-checksums
 
 $EC2_INSTANCE_ID=(C:\ProgramData\chocolatey\lib\wget\tools\wget -q -O - http://169.254.169.254/latest/meta-data/instance-id)
 $env:NODE_TEMPLATE = "c:\tools\selenium\nodeConfigTemplate.json"
